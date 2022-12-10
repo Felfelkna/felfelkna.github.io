@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "myfont";
+  src: url("CormorantGaramond-SemiBold.woff") format('woff');
+}
+
+
+body {
+font-family: 'myfont'; 
+font-size: 30px;
+background-image: url("bg-1.jpg");
+background-position: center top;
+background-repeat: no-repeat;
+background-color: #FFFFFF;
+position: relativ;
+}
+#wrapper {
+margin: auto;
+width: 1000px;
+height: 1000px;
+font-size: 25px;
+position: relative;
+}
+.textfeld {
+position: absolute;
+width: 750px;
+top: 200px;
+right: 0;
+font-size: 20px;
+
+}
+.linkbox {
+position: absolute;
+width: 200px;
+top: 250px;
+left: 50px;
+}
+#footnote {
+margin: auto;
+position: relativ;
+width:1000px;
+bottom:0px;
+font-size: 15px;
+text-align: center;
+}
