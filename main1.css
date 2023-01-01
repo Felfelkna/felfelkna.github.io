@@ -63,6 +63,7 @@ position: relativ;
   width: 50%;
   height: 800px;
   padding: 20px;
+  overflow: auto;
 }
 .column3 {
   float: left;
