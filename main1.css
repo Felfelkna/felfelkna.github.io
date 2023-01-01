@@ -52,12 +52,11 @@ position: relativ;
 .column1 {   
   float: left;
   width: 25%;
-  height: 250px;
+  aspect-ratio: 1/1;
   background-image : url("logo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-
 }
 
 .column2 {
