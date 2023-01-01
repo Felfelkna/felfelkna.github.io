@@ -103,6 +103,7 @@ position: relativ;
 @media screen and (max-width: 800px) {
   .lcolumn1, .column2, .column3 {   
     width: 100%;
+	  min-height: 50px;
     padding: 0;
   }
 }
