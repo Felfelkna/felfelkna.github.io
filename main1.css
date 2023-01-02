@@ -52,10 +52,10 @@ position: relativ;
   float: left;
   width: 25%;
   height: 840px;
-  background-image : url("fahrrad.jpg");
-  background-position: center;
+  background-image : url("banner.jpg");
+  background-position: top;
   background-repeat: repeat-y;
-  background-size: contain;
+  background-size: cover;
 }
 
 .column2 {
@@ -104,15 +104,25 @@ position: relativ;
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .column1, .column3 {   
+  .column1 {   
     width: 100%;
 	max-height: 150px;
     padding: 0;
+	background-image: url("fahrrad.jpg");
+	background-position:center;
+	background-size: contain;
   }
   .column2 {
 	width: 100%;
-    padding 0;
+    padding: 5px;
   }
+  .column3 {   
+    width: 100%;
+	max-height: 150px;
+    padding: 0;
+	background-image: url("fahrrad.jpg");
+	background-position:center;
+	background-size: contain;
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
